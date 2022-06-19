@@ -20,11 +20,7 @@ dur_val, aco_val, dan_val, en_val, ins_val, tem_val, key_val, liv_val, lou_val, 
 
 def main():
 
-    st.set_page_config(page_title="Popular Song App", menu_items={
-        'Get Help': 'https://www.extremelycoolapp.com/help',
-        'Report a bug': "https://www.extremelycoolapp.com/bug",
-        'About': "# This is a header. This is an *extremely* cool app!"
-    })
+    st.set_page_config(page_title="Popular Song App")
     overview = st.container()
     left, right = st.columns(2)
     prediction, labels = st.columns(2)
