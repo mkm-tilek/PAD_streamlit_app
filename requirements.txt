@@ -1,5 +1,5 @@
 pandas
-pickle
+pickle==0.0.12
 zipfile
 fastai==2.5.3
 streamlit==0.85.0
