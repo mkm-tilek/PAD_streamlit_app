@@ -1,3 +1,6 @@
+pandas
+pickle
+zipfile
 fastai==2.5.3
 streamlit==0.85.0
 pathy==0.6.0
